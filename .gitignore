@@ -1,0 +1,46 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Virtual Environments ===
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+*.env
+
+# === PyCharm ===
+.idea/
+
+# === VSCode (nếu dùng) ===
+.vscode/
+
+# === Jupyter Notebook checkpoint ===
+.ipynb_checkpoints/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Log and cache ===
+*.log
+*.sqlite3
+*.db
+.cache/
+*.bak
+*.swp
+
+# === PyTorch ===
+*.pth
+*.pt
+
+# === Test output ===
+htmlcov/
+coverage.xml
+.pytest_cache/
