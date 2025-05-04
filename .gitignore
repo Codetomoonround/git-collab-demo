@@ -3,33 +3,87 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
+# C extensions
+*.so
+
+# Virtual environment
 .venv/
-env/
 venv/
 ENV/
-env.bak/
-venv.bak/
+env/
+*.env
+*.venv
 
-# PyCharm project files
-.idea/
+# pipenv
+Pipfile.lock
 
-# VSCode project files (nếu dùng VS Code nữa)
-.vscode/
-
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-.eggs/
-
-# Logs and databases
-*.log
-*.sqlite3
+# Poetry
+poetry.lock
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# System files
+# IPython history
+.profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Logs
+*.log
+
+# Jupyter Notebook output
+*.nbconvert.ipynb
+
+# System
 .DS_Store
 Thumbs.db
+
+# TensorBoard logs
+runs/
+
+# PyTorch Lightning checkpoints
+lightning_logs/
+
+# Model files
+*.pth
+*.pt
+*.h5
+
+# Data files
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.hdf5
+*.npz
+*.npy
+
+# Docker
+*.pid
+
+# Spyder
+.spyderproject
+.spyproject
